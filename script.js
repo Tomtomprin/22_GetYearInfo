@@ -18,20 +18,3 @@ window.addEventListener('DOMContentLoaded', function () {
 // textContent・・　タグは渡せず、テキストだけ渡すことができる。
 // 以下参考サイト　他にも複数方法ある
 // https://www.sejuku.net/blog/88958
-
-
-
-// window.onload = function () {
-//     var today = new Date();
-//     console.log(today);
-//     console.log(today.getFullYear());
-
-// }
-
-// function GetYear() {
-//     var Year = (new Date).getFullYear();
-//     console.log(Year);
-//     document.getElementById('year').textContent = Year;
-
-// }
-// window.onload = GetYear;
