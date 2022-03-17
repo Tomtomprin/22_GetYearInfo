@@ -1,12 +1,9 @@
-function GetYear() {
+window.addEventListener('DOMContentLoaded', function () {
     // 年号を取得
     var Year = (new Date).getFullYear();
     // 上記で得た情報をHTMLに渡す
     document.getElementById('year').textContent = Year;
-}
-window.onload = GetYear;
-
-
+})
 
 // 年の他にも色々取得できる
 // console.log("年=" + today.getFullYear());
